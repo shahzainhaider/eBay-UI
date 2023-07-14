@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.a{
+    text-decoration: underline;
+    color: blue ;
+}
+.rotate{
+    text-transform: rotate(90deg);
+}
+
+.line-h{
+    line-height: 14px;
+    font-weight: 500;
+}

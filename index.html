@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bac1676d03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mb-20">
+        <div class="max-w-7xl mx-auto">
+            <!-- navbar -->
+            <div class="nav flex justify-between text-xs py-2 border-[#e5e5e5] border-b">
+                <ul class="flex gap-4">
+                    <li>Hi! <a class="a" href="/">Sign in</a> or <a class="a" href="/">register</a></li>
+                    <li>Daily Deals</li>
+                    <li>Help & Contacts</li>
+                </ul>
+                <ul class="flex gap-4">
+                    <li>Ship to</li>
+                    <li>Sell</li>
+                    <li >Watchlist <div class="inline-block w- rotate-90">></div></li>
+                    <li >My eBay <div class="inline-block w- rotate-90">></div></li>
+                    <li ><img src="bell.svg" width="20"></li>
+                    <li class="ml-2"><img src="cart.svg" width="20"></li>
+                </ul>
+            </div>
+
+
+            <!-- search bar -->
+            <div class="py-4 flex items-center gap-2 border-[#e5e5e5] border-b">
+                <img src="logo.png" width="120">
+                <div>
+                    <p class="line-h w-20 text-sm">Shop by catogery <span class="inline-block rotate-90">></span></p>
+                </div>
+
+                <div class="flex gap-2 items-center border-2 border-black">
+                    <!-- for search -->
+                    <div class="px-4 flex gap-2 w-[619px] border border-r-[#c7c7c7]">
+                        <img class="" src="search.svg" width="20">
+                        <input class="p-2 w-full" type="text" placeholder="Search for anything">
+                    </div>
+                    <!-- for catogery -->
+                    <div class="flex justify-around items-center text-xs w-40">
+                        <p>All Catogeries</p>
+                        <span class="inline-block rotate-90 text-lg">></span>
+                    </div>
+                </div>
+
+                <button class="bg-blue-600 text-white font-semibold py-[8px] px-[16px] w-[168px]">Search</button>
+                <p class="text-xs text-black/60">Advanced</p>
+            </div>
+
+            <!-- catogery bar -->
+            <div class="p-2 text-xs border-[#e5e5e5] border-b">
+                <ul class=" flex justify-center items-center gap-8">
+                    <li>Home</li>
+                    <li>
+                        <div class="flex items-center gap-2">
+                            <img src="heart.svg" width="15">
+                            <span>Saved</span>
+                        </div>
+                    </li>
+                    <li>Electronics</li>
+                    <li>Motors</li>
+                    <li>Fashion</li>
+                    <li>Collectibles & Art</li>
+                    <li>Sports</li>
+                    <li>Health & Beauty</li>
+                    <li>Industrial equipments</li>
+                    <li>Home & Garden</li>
+                    <li>Deals</li>
+                    <li>Sell</li>
+                </ul>
+            </div>
+
+            <!-- main -->
+            <div class="">
+                <img src="main.PNG" alt="">
+            </div>
+
+            <!-- best deals -->
+            <div class="pt-12 pb-20 border-[#e5e5e5] border-b ">
+                <!-- heading -->
+                <div class="flex items-center gap-4">
+                    <h2 class="font-semibold text-2xl">Daily Deals</h2>
+                    <span class="h-5 bg-black w-[1px]"></span>
+                    <div class="flex gap-2">
+                        <p class="text-xl">See all</p>
+                        <img src="arrow.svg" width="30">
+                    </div>
+                </div>
+
+                <!-- carts -->
+                <div class="flex justify-center items-center gap-10 mt-10">
+                    <div class="">
+                        <div class="h-[224px] w-[224px] shadow-md hover:scale-105 duration-300">
+                            <img src="1.webp">
+                        </div>
+                        <p class="font-semibold mt-4">PKR 599/-</p>
+                    </div>
+                    <div class="">
+                        <div class="h-[224px] w-[224px] shadow-md hover:scale-105 duration-300">
+                            <img src="2.webp">
+                        </div>
+                        <p class="font-semibold mt-4">PKR 599/-</p>
+                    </div>
+                    <div class="">
+                        <div class="h-[224px] w-[224px] shadow-md hover:scale-105 duration-300">
+                            <img src="3.webp">
+                        </div>
+                        <p class="font-semibold mt-4">PKR 599/-</p>
+                    </div>
+                    <div class="">
+                        <div class="h-[224px] w-[224px] flex items-center justify-center shadow-md hover:scale-105 duration-300">
+                            <img src="4.webp">
+                        </div>
+                        <p class="font-semibold mt-4">PKR 599/-</p>
+                    </div>
+                    <div class="">
+                        <div class="h-[224px] w-[224px] flex items-center justify-center shadow-md hover:scale-105 duration-300">
+                            <img src="5.webp">
+                        </div>
+                        <p class="font-semibold mt-4">PKR 599/-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="my-16 text-xs text-[#757575]">
+                <table>
+                    <tbody class="w-full">
+                        <tr class="flex leading-7 gap-28">
+                            <td>
+                                <h3 class="text-lg text-[#757575] font-bold">Buy</h3>
+                                <ul>
+                                    <li>Registeration</li>
+                                    <li>eBay Money Back Guarantee</li>
+                                    <li>Bidding & buying help</li>
+                                    <li>Stores</li>
+                                </ul>
+                            </td>
+                            <td class="w-[100px]">
+                                <h3 class="text-lg text-[#757575] font-bold mb-4">Sell</h3>
+                                <ul>
+                                    <li>Start selling</li>
+                                    <li>Learn to sell</li>
+                                    <li>Affiliates</li>
+                                </ul>
+                                <h3 class="text-lg text-[#757575] font-bold w-[180px] mt-4 mb-3">Tools & apps</h3>
+                                <ul>
+                                    <li>Developers</li>
+                                    <li>Security center</li>
+                                    <li>Site map</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <h3 class="text-lg text-[#757575] font-bold w-[150px] mb-4">Stay connected</h3>
+                                <ul>
+                                    <li>eBay's Blogs</li>
+                                    <li class="flex items-center gap-2"><img src="fb.svg" width="18">Facebook</li>
+                                    <li class="flex items-center gap-2"><img src="twitter.svg" width="16">Twitter</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <h3 class="text-lg text-[#757575] font-bold mb-4">About eBay</h3>
+                                <ul class="w-[220px]">
+                                    <li>Company info</li>
+                                    <li>News</li>
+                                    <li>Investors</li>
+                                    <li>careers</li>
+                                    <li>Government relations</li>
+                                    <li>Advertise with us</li>
+                                    <li>policies</li>
+                                    <li>Verified Rights Owner (VeRO) Program</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <h3 class="text-lg text-[#757575] font-bold mb-4">Help & Contact</h3>
+                                <ul>
+                                    <li>Seller Information Center</li>
+                                    <li>Contact us</li>
+                                </ul>
+                                <h3 class="text-lg text-[#757575] font-bold w-[180px] mt-4 mb-3">Community</h3>
+                                <ul>
+                                    <li>Announcements</li>
+                                    <li>Discussion boards</li>
+                                    <li>eBay Giving Works</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="my-8">Copyright © 1995-2023 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Payments Terms of Use, Cookies, Your Privacy Choices and AdChoice</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
